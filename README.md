@@ -3,7 +3,7 @@
 This Python application demonstrates the integration of LangChain's LangGraph with OpenWeatherMap to provide weather information for any given city. Utilizing advanced language models and the LangChain framework, this app simplifies the process of querying weather data and interpreting responses in a conversational manner.
 
 
-![alt text](image.png)
+
 ## Features
 
 - **Weather Queries**: Allows user to input city names and receive current weather data.
