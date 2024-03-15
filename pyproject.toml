@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "weatherinfo"
+version = "0.1.0"
+description = "A simple llm-powered tool for searching the weather information using OpenWeatherAPI"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.1.11"
+langchain-openai = "^0.0.8"
+langgraph = "^0.0.26"
+pyowm = "^3.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
