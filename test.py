@@ -22,9 +22,9 @@ from langchain_core.messages import HumanMessage
 
 #TODO add .env
 load_dotenv()
-os.environ["OPENWEATHERMAP_API_KEY"] = 'f4bd4ed1b0449c71dd910f4305c292a7'
+os.environ["OPENWEATHERMAP_API_KEY"] = os.getenv('OPENWEATHERMAP_API_KEY')
 os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
-os.environ['LANGCHAIN_API_KEY'] = 'ls__ae038ddbc62c4af090ecc776a2e1254b'
+os.environ['LANGCHAIN_API_KEY'] = os.getenv('LANGCHAIN_API_KEY')
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 
 
