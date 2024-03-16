@@ -22,7 +22,7 @@ This Python application demonstrates the integration of LangChain's LangGraph wi
 ## Setup
 
 1. Clone the repository and navigate to the project directory.
-2. Copy `.env.example` to `.env` and fill in your OpenWeatherMap and LangChain API keys.
+2. Get the API keys
 3. Run the application with `python app.py`.
 
 ## Usage
